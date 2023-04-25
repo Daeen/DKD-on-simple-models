@@ -4,7 +4,7 @@ This repo is based on the CVPR-2022 paper: [Decoupled Knowledge Distillation](ht
 
 ### Framework & Performance
 <br>
-<div style="text-align:left"><img src="dkd.png" width="50%" ></div>
+<div style="text-align:left"><img src="dkd.png" width="70%" ></div>
 <br>
 
 ### Benchmark Results of DKD-paper on CIFAR-100
