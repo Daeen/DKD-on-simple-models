@@ -1,0 +1,2 @@
+build 2-3 different simpler models of teacher student and test dkd vs  dk vs no-dk
+DO ablation studies on alpha beta and temperature hyperparameter to check
