@@ -1,4 +1,4 @@
-# Decoupled Knowledge Distillation(DKD) for baby models 
+# Decoupled Knowledge Distillation(DKD) for simple models 
 
 This repo is based on the CVPR-2022 paper: [Decoupled Knowledge Distillation](https://arxiv.org/abs/2203.08679).
 
@@ -6,6 +6,7 @@ This repo is based on the CVPR-2022 paper: [Decoupled Knowledge Distillation](ht
 <br>
 <div style="text-align:left"><img src="dkd.png" width="50%" ></div>
 <br>
+
 ### Benchmark Results of DKD-paper on CIFAR-100
 
 | Teacher <br> Student |ResNet56 <br> ResNet20|ResNet110 <br> ResNet32| ResNet32x4 <br> ResNet8x4| WRN-40-2 <br> WRN-16-2| WRN-40-2 <br> WRN-40-1 | VGG13 <br> VGG8|
@@ -100,4 +101,5 @@ for DKD, and found the best accuracy to be 59.27%.
 ```
 
 # License
+
 This project is under the MIT license. See [LICENSE](LICENSE) for details.
