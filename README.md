@@ -27,10 +27,7 @@ This repo is based on the CVPR-2022 paper: [Decoupled Knowledge Distillation](ht
 - PyTorch 2.0.0
 - CUDA 11.7
 
-### Getting started
-
-1. Motivation
-
+### Motivation
 - Main motivation for this experiment is to measure decoupled knowledge distillation performance on very simple lightweight models and compare it with classical knowledge distillation. The paper did not explore performance of very simple models with less than 10 layers, in comparison to the 
 classical paper: [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)
 
@@ -45,7 +42,7 @@ classical paper: [Distilling the Knowledge in a Neural Network](https://arxiv.or
         - conv2d->maxpool->conv2d->maxpool->flatten->fc + relu->fc
 
 
-2. Evaluation
+### Evaluation
 
 - I evaluate the performance of my model using CIFAR-10 dataset, and measure the mean validation accuracy.
 - I perform a comparison among student model with decoupled knowledge distillation, basic knowledge distillation, and no distillation.
